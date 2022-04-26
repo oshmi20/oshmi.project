@@ -161,6 +161,40 @@ align-items: center;
         display: block;
     }
 }
+#box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btncl{
+    width: fit-content;
+    /* padding: 30px; */
+    height: 70px;
+    font-size: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+}
+.btncl:hover{
+background-color: red;
+}
+#menulist li a:hover{
+    color: red;
+}
+
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:420px) {
+  img {width:50%}
+  #time {font-size: 3em;}
+  h1{font-size: 2.5em;}
+  .btn{padding: 10px 21.33333px;}
+}
 @media (min-width:881px){
     #close{
         display: none;
